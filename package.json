@@ -1,0 +1,30 @@
+{
+  "name": "test-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tcli": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.1.2",
+    "commander": "^9.2.0",
+    "copyfiles": "^2.4.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.1.0",
+    "fse": "^4.0.1",
+    "inquirer": "^8.2.2",
+    "ncp": "^2.0.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@zzzz-/eslint-config-test": "^1.0.20",
+    "eslint": "^8.13.0"
+  }
+}
